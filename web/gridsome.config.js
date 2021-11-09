@@ -13,9 +13,9 @@ const clientConfig = require('./client-config')
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  siteName: 'Gridsome Blog Starter',
+  siteName: 'Hi, I'm Finnur but you can call me Gommit',
   siteDescription:
-    'A simple, hackable & minimalistic starter for Gridsome that uses structured content from Sanity.io.',
+    'Just one of those old fashioned blogs that are now called digital gardens.',
 
   templates: {
     SanityPost: '/:slug__current'
