@@ -13,7 +13,7 @@ const clientConfig = require('./client-config')
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  siteName: 'Hi, I'm Finnur but you can call me Gommit',
+  siteName: 'Hi, my name is Finnur but you can call me Gommit',
   siteDescription:
     'Just one of those old fashioned blogs that are now called digital gardens.',
 
