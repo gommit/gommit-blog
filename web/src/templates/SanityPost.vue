@@ -21,6 +21,21 @@
         v-if="$page.post._rawBody"
       />
 
+      <div class="newsletter">
+        <p>Would you like to get random emails from me with content like this?</p>
+        <form
+          action="https://buttondown.email/api/emails/embed-subscribe/Gommit"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://buttondown.email/Gommit', 'popupwindow')"
+          class="embeddable-buttondown-form"
+        >
+          <label for="bd-email">Enter your email</label>
+          <input type="email" name="email" id="bd-email" />
+          <input type="submit" value="Subscribe" />
+        </form>
+      </div>
+
       <div class="post__footer">
         <post-tags :post="$page.post" v-if="$page.post" />
       </div>
