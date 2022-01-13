@@ -22,7 +22,8 @@
       />
 
       <div class="newsletter">
-        <p>Would you like to get random emails from me with content like this?</p>
+        <hr/>
+        <h2>Would you like to get random emails from me with more content like this?</h2>
         <form
           action="https://buttondown.email/api/emails/embed-subscribe/Gommit"
           method="post"
@@ -32,7 +33,7 @@
         >
           <label for="bd-email">Enter your email</label>
           <input type="email" name="email" id="bd-email" />
-          <input type="submit" value="Subscribe" />
+          <input class="button" type="submit" value="Subscribe" />
         </form>
       </div>
 
